@@ -78,7 +78,7 @@ public class ComboBoxPage extends OutlinePage {
         grid.setHgap(30);
         grid.setVgap(10);
         grid.addRow(0, captionLabel("ComboBox"), cmb1, cmb2);
-    grid.addRow(1, captionLabel("ChoiceBox"), chb1, chb2);
+        grid.addRow(1, captionLabel("ChoiceBox"), chb1, chb2);
 
         var description = BBCodeParser.createFormattedText("""
             The [i]ComboBox[/i] is an implementation of the [i]ComboBoxBase[/i] abstract class, \
